@@ -68,8 +68,6 @@ $('document').ready(function () {
                 return;
             }
 
-            // dropdown.innerHTML = ""; // Clear previous comments
-
             comments.forEach(({ username, comment }) => {
                 if (dropdown.children.innerHTML != `<strong>${username}:</strong> ${comment}`) {
                     let commentItem = document.createElement("div");
