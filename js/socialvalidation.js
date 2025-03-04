@@ -80,5 +80,5 @@ $('document').ready(function () {
 
         openComments.addEventListener('click', toggle);
         closeComments.addEventListener('click', toggle);
-    }
+    }    
 })
