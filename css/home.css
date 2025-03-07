@@ -26,6 +26,7 @@
 
 	margin: 0;
 	padding: 0;
+	scroll-behavior: smooth;
 
 }
 
@@ -166,6 +167,7 @@ header {
 	color: var(--text-color);
 	border: 2px solid var(--primary-color);
 	transition: color 150ms ease-in-out;
+	cursor: pointer;
 
 }
 
@@ -467,6 +469,85 @@ label {
 	margin:25px 0px; padding:0px;
 
 }
+
+.directory {
+
+	display: grid;
+	margin-top: 10px;
+    background-color: var(--base-variant);
+	border-radius: .25rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+
+}
+
+.directory ul {
+
+	display: list-item;
+	list-style: none;
+	padding: 0;
+
+}
+
+.directory ul li {
+
+	margin-right: 15px;
+	padding: 15px;
+
+}
+
+.directory ul li h1 {
+
+	text-decoration: none;
+    color: var(--text-color);
+    padding: 10px;
+	cursor: pointer;
+	transition: 150ms ease-in-out;
+
+}
+
+.directory ul li h1:hover {
+
+	color: var(--accent-color);
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+
+}
+
+.content {
+
+	align-items: center;
+	padding-left: 25px;
+	margin: auto;
+	color: var(--text-color);
+	
+}
+
+.content h2 {
+
+	padding-top: 100px;
+	padding-bottom: 25px;
+
+}
+
+.content p {
+
+	padding-bottom: 50px;
+
+}
+
+.content p a {
+
+	color: var(--text-color);
+
+}
+
+.content img {
+
+	border-radius: .5rem;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+
+}
+
+
 
 @media (min-width: 600px) {
 	form {
