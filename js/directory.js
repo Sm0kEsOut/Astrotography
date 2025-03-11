@@ -34,19 +34,19 @@ $('document').ready(function () {
         SS[0].addEventListener("click", function () {
             localStorage.removeItem('scrollTo');
             localStorage.setItem('scrollTo', 'SS');
-            document.location.href = "../directory.html";
+            document.location.href = "./directory.html";
         });
 
         MW[0].addEventListener("click", function () {
             localStorage.removeItem('scrollTo');
             localStorage.setItem("scrollTo", "MW");
-            document.location.href = "../directory.html";
+            document.location.href = "./directory.html";
         });
 
         DS[0].addEventListener("click", function () {
             localStorage.removeItem('scrollTo');
             localStorage.setItem("scrollTo", "DS");
-            document.location.href = "../directory.html";
+            document.location.href = "./directory.html";
         });
 
     }

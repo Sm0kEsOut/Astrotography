@@ -179,11 +179,11 @@ header {
 
 .darkmode-menu, .menu-account {
 
-    position: absolute;
-    right: 30px;
-    display: flex;
-    bottom: 600px;
-
+    position: relative;
+	margin: 0 auto;
+	height: auto;
+	width: auto;
+	
 }
 
 .account-btn {
@@ -197,7 +197,7 @@ header {
 	justify-content: center;
 	align-items: center;
 	position: absolute;
-	bottom: -20px;
+	bottom: -10px;
 	right: 20px;
 	transform: translateY(5px);
 	transform: 150ms ease-in-out;
@@ -222,7 +222,7 @@ header {
 	align-items: center;
 	position: absolute;
 	right: 100px;
-	bottom: -20px;
+	bottom: -27px;
 	transform: translateY(5px);
 	transform: 150ms ease-in-out;
 
