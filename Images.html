@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Astrotography | Contact</title>
+    <title>Astrotography | Images</title>
     <link rel="stylesheet" type="text/css" href="css/home.css">
+    <script type="text/javascript" src="js/darkmode.js" defer></script>
+    <script type="text/javascript" src="js/jquery-3.7.1.js" defer></script>
 </head>
 <body>
     <header>
@@ -20,12 +22,13 @@
             <nav class="menu">
                 <ul>
                     <li><a href="./index.html">Home</a></li>
+                    <li><a href="./Images.html">Images</a></li>
                     <li class="dropdown">
                         <a href="./directory.html">Directory</a>
                         <div class="dropdown-content">
-                            <a class="SS">Solar System</a>
-                            <a class="MW">Milky Way</a>
-                            <a class="DS">Deep Space</a>
+                            <a href="#">Solar System</a>
+                            <a href="#">Milky Way</a>
+                            <a href="#">Deep Space</a>
                         </div>
                     </li>
                     <li><a href="./contact.html">Contact</a></li>
@@ -42,27 +45,7 @@
         </div>
     </header>
     <main class="wrapper">
-        <h2 class="contactHeader">Contact us at Astrotography!</h2>
-
-        <p class="contactPara">Fill out the form below to contact us at Astrotography. All information is required.</p>
-
-        <form action="./formFilled.html" method="post">
-            <label for="name-input">Name:</label>
-            <input name="myName" id="name-input" required></input>
-            <br>
-            <label for="email-input">Email:</label>
-            <input name="myEmail" id="email-input" required></input>
-            <br>
-            <label for="comments-input">Comments:</label>
-            <textarea name="myComments" id="comments-input" rows="4" cols="20" required></textarea>
-            <br>
-            <button id="mySubmit">Send Now</button>
-        </form>
+        
     </main>
-
-    <script type="text/javascript" src="js/jquery-3.7.1.js"></script>
-    <script type="text/javascript" src="js/darkmode.js"></script>
-    <script type="text/javascript" src="js/directory.js"></script>
-    <script type="text/javascript" src="js/socialvalidation.js"></script>
 	</body>
 </html>
