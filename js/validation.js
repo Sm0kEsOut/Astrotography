@@ -10,7 +10,7 @@ $('document').ready(function () {
     let existingData = userTable ? JSON.parse(userTable) : []
 
 
-    form.addEventListener('submit', (e) => {
+    document.getElementById('login').addEventListener('click', (e) => {
 
         let errors = []
 
@@ -42,22 +42,28 @@ $('document').ready(function () {
                 existingData.push(formData)
 
                 localStorage.setItem('userData', JSON.stringify(existingData))
-                document.location.href = "./index.html";
+
+                console.log("Redirecting to login.html...");
+
+                window.location.href = './login.html';
             } else {
-                existingData.forEach(user => {
+                for (let i = 0; i < existingData.length; i++) {
+                    const user = existingData[i];
                     if (user.email === email) {
                         if (user.password === password) {
-                            console.log(user.password)
                             userFound = true
                             error_message.innerText = "Login successful!"
                             error_message.style.color = 'green'
 
-                            // Store the logged-in user
                             localStorage.setItem('currentUser', JSON.stringify(user))
-                            document.location.href = "./index.html";
+
+                            console.log("Redirecting to index.html...");
+
+                            window.location.href = './index.html';
+                            break;
                         }
                     }
-                })
+                }
             }
         }
     })
