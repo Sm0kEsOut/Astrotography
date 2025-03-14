@@ -58,7 +58,6 @@ header {
     background-color: var(--base-variant);
     height: 5em;
     width: 100%;
-    padding-left: 20px;
     z-index: 1;
 
 }
