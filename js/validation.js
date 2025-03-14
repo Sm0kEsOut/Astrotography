@@ -42,6 +42,7 @@ $('document').ready(function () {
                 existingData.push(formData)
 
                 localStorage.setItem('userData', JSON.stringify(existingData))
+                document.location.href = "./index.html";
             } else {
                 existingData.forEach(user => {
                     if (user.email === email) {
@@ -51,8 +52,9 @@ $('document').ready(function () {
                             error_message.innerText = "Login successful!"
                             error_message.style.color = 'green'
 
-                            // Optionally, store the logged-in user
+                            // Store the logged-in user
                             localStorage.setItem('currentUser', JSON.stringify(user))
+                            document.location.href = "./index.html";
                         }
                     }
                 })

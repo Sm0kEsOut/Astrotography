@@ -3,6 +3,20 @@ $('document').ready(function () {
     let userData = localStorage.getItem("currentUser");
     let loggedInUser = userData ? JSON.parse(userData) : []
 
+    document.getElementsByClassName("account-btn")[0].addEventListener("click", function () {
+
+        if (loggedInUser != "") {
+
+            document.location.href = "./login.html";
+
+        } else {
+
+            document.location.href = "./signup.html";
+
+        }
+
+    });
+
     if (document.title == 'Astrotography | Home') {
         const container = document.querySelector('.wrapper')
         const popup = document.querySelector('.cmt-dropdown-content')
