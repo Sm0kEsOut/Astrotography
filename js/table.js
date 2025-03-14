@@ -4,11 +4,14 @@ $('document').ready(function () {
 
     async function fetchNasaPhotos() {
         try {
+            document.querySelector('.spinner').style.display = 'block';
             const response = await fetch(apiUrl);
             const data = await response.json();
             populateTable(data);
         } catch (error) {
             console.error('Error fetching data:', error);
+        } finally {
+            document.querySelector('.spinner').style.display = 'none'
         }
     }
 

@@ -51,6 +51,12 @@
     
     }
 
+    body {
+
+        background-color: var(--base-color);
+
+    }
+
     .Hbackground {
 
         display: inline;
@@ -267,4 +273,21 @@
     h1 {
         background-color: var(--base-color);
         color: var(--text-color);
+    }
+
+    .spinner {
+        height: 120px;
+        width: 120px;
+        border: 6px solid;
+        border-color: white transparent white transparent;
+        border-radius: 50%;
+        animation: spin 1.5s ease-in-out infinite;
+        margin: 20px auto;
+        display: block;
+    }
+    
+    @keyframes spin {
+        to {
+            transform: rotate(360deg);
+        }
     }
