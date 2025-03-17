@@ -33,7 +33,7 @@
 html {
 
 	font-family: "Bona Nova SC", serif;
-	font-size: 12pt;
+	font-size: 16px;
 	color: var(--text-color);
 	text-align: center;
 
@@ -56,7 +56,7 @@ header {
     align-items: center;
     justify-content: flex-start;
     background-color: var(--base-variant);
-    height: 5em;
+    height: 5rem;
     width: 100%;
     z-index: 1;
 
@@ -68,7 +68,6 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-left: 20px;
 	color: var(--text-color);
 
 }
@@ -93,7 +92,7 @@ header {
 
 	display: flex;
 	align-items: center;
-	padding-left: 25px;
+	padding-left: 25rem;
 
 }
 
@@ -107,7 +106,6 @@ header {
 
 .menu ul li {
 
-	margin-right: 15px;
 	transform: translateY(0px);
 	transform: 150ms ease-in-out;
 
@@ -118,7 +116,7 @@ header {
     text-decoration: none;
     color: var(--text-color);
     font-size: 15px;
-    padding: 10px;
+    padding: 1rem;
     transition: 150ms ease-in-out;
 
 }
@@ -138,7 +136,7 @@ header {
 .menu ul li .dropdown-content {
 
 	display: grid;
-    min-width: 180px;
+    min-width: 11.25rem;
     position: absolute;
     background-color: var(--base-variant);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
@@ -188,8 +186,8 @@ header {
 
 .account-btn {
 
-	height: 50px;
-	width: 50px;
+	height: 3.125rem;
+	width: 3.125rem;
 	padding: 0;
 	border-radius: 50%;
 	background-color: var(--base-variant);
@@ -212,8 +210,8 @@ header {
 
 #theme-switch {
 
-	height: 50px;
-	width: 50px;
+	height: 3.125rem;
+	width: 3.125rem;
 	padding: 0;
 	border-radius: 50%;
 	background-color: var(--base-variant);
@@ -263,10 +261,10 @@ header {
     width: 50%;
     background: var(--base-variant);
     color: var(--text-color);
-    padding: 15px;
+    padding: 0.938rem;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
-    margin-top: 20px;
+    margin-top: 1.25rem;
     transition: 150ms ease-in-out;
     z-index: 0;
     transform: translateY(0px);
@@ -282,7 +280,7 @@ header {
 .post-img {
 
 	width: 100%;
-    margin-right: 10px;
+    margin-right: 0.625rem;
     border: 2px solid var(--base-color);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
 
@@ -298,12 +296,12 @@ header {
 
 .user img {
 
-    width: 40px;
-    height: 40px;
+    width: 2.5rem;
+    height: 2.5rem;
     border: 2px solid var(--base-color);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
     border-radius: 50%;
-    margin-right: 10px;
+    margin-right: 0.625rem;
 
 }
 
@@ -311,7 +309,7 @@ header {
 
     display: flex;
     justify-content: space-between;
-    margin-top: 10px;
+    margin-top: 0.625rem;
 
 }
 
@@ -352,7 +350,7 @@ header {
 
 .cmt-dropdown-content .comment-item {
 
-    padding: 5px;
+    padding: 0.313rem;
     border-bottom: 1px solid var(--base-variant);
 
 }
@@ -363,8 +361,8 @@ header {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 550px;
-    padding: 35px;
+    width: 34.375rem;
+    padding: 2.188rem;
     border-radius: .25rem;
     box-shadow: 0 5px 30px rgba(0, 0, 0, 0.5);
     background-color: var(--base-variant);
@@ -376,8 +374,8 @@ header {
 
 .cmt-dropdown-content .close {
 
-	height: 35px;
-	width: 35px;
+	height: 2.188rem;
+	width: 2.188rem;
 	padding: 0;
 	border-radius: 50%;
 	box-shadow: 0 5px 30px rgba(0, 0, 0, 0.5);
@@ -430,7 +428,7 @@ form {
 	display: flex;
 	flex-direction: column;
 	padding-left: 1em;
-	margin:50px 0px; padding:0px;
+	margin:3.125rem 0px; padding:0px;
 	text-align:center;
 	width: 80%;
 	
@@ -466,7 +464,7 @@ label {
 
 	color: var(--text-color);
 	text-align:center;
-	margin:25px 0px; padding:0px;
+	margin: 1.563rem 0px; padding:0px;
 	font-size: 25px;
 
 }
@@ -474,7 +472,7 @@ label {
 .directory {
 
 	display: grid;
-	margin-top: 10px;
+	margin-top: 0.625rem;
     background-color: var(--base-variant);
 	border-radius: .25rem;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
@@ -491,8 +489,8 @@ label {
 
 .directory ul li {
 
-	margin-right: 15px;
-	padding: 15px;
+	margin-right: 1rem;
+	padding: 1rem;
 
 }
 
@@ -500,7 +498,7 @@ label {
 
 	text-decoration: none;
     color: var(--text-color);
-    padding: 10px;
+    padding: 0.625rem;
 	cursor: pointer;
 	transition: 150ms ease-in-out;
 
@@ -516,7 +514,7 @@ label {
 .content {
 
 	align-items: center;
-	padding-left: 25px;
+	padding-left: 1.563rem;
 	margin: auto;
 	color: var(--text-color);
 	
@@ -524,14 +522,14 @@ label {
 
 .content h2 {
 
-	padding-top: 100px;
-	padding-bottom: 25px;
+	padding-top: 6.25rem;
+	padding-bottom: 1.563rem;
 
 }
 
 .content p {
 
-	padding-bottom: 50px;
+	padding-bottom: 3.125rem;
 
 }
 
