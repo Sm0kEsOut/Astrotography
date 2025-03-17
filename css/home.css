@@ -41,33 +41,33 @@ html {
 
 body {
 
-    background-color: var(--base-color);
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    overflow-x: hidden;
-    min-height: 100vh;
+	background-color: var(--base-color);
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	overflow-x: hidden;
+	min-height: 100vh;
 
 }
 
 header {
 
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    background-color: var(--base-variant);
-    height: 5rem;
-    width: 100%;
-    z-index: 1;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	background-color: var(--base-variant);
+	height: 5rem;
+	width: 100%;
+	z-index: 1;
 
 }
 
 .wrapper {
-    
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 	color: var(--text-color);
 
 }
@@ -113,11 +113,11 @@ header {
 
 .menu a {
 
-    text-decoration: none;
-    color: var(--text-color);
-    font-size: 15px;
-    padding: 1rem;
-    transition: 150ms ease-in-out;
+	text-decoration: none;
+	color: var(--text-color);
+	font-size: 15px;
+	padding: 1rem;
+	transition: 150ms ease-in-out;
 
 }
 
@@ -127,7 +127,7 @@ header {
 
 	& a {
 
-	color: var(--accent-color);
+		color: var(--accent-color);
 
 	}
 
@@ -136,17 +136,17 @@ header {
 .menu ul li .dropdown-content {
 
 	display: grid;
-    min-width: 11.25rem;
-    position: absolute;
-    background-color: var(--base-variant);
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
-    opacity: 0;
-   	left: -3.5em;
-    padding: .75rem;
-    border-radius: .25rem;
-    transform: translateY(-10px);
-    pointer-events: none;
-    transition: opacity 150ms ease-in-out, transform 150ms ease-in-out;
+	min-width: 11.25rem;
+	position: absolute;
+	background-color: var(--base-variant);
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+	opacity: 0;
+	left: -3.5em;
+	padding: .75rem;
+	border-radius: .25rem;
+	transform: translateY(-10px);
+	pointer-events: none;
+	transition: opacity 150ms ease-in-out, transform 150ms ease-in-out;
 
 }
 
@@ -172,16 +172,17 @@ header {
 .menu ul li .dropdown-content a:hover {
 
 	color: var(--accent-color);
-	
+
 }
 
-.darkmode-menu, .menu-account {
+.darkmode-menu,
+.menu-account {
 
-    position: relative;
+	position: relative;
 	margin: 0 auto;
 	height: auto;
 	width: auto;
-	
+
 }
 
 .account-btn {
@@ -195,14 +196,15 @@ header {
 	justify-content: center;
 	align-items: center;
 	position: absolute;
-	bottom: -10px;
-	right: 20px;
+	bottom: -0.625rem;
+	right: 1.25rem;
 	transform: translateY(5px);
 	transform: 150ms ease-in-out;
 
 }
 
-.account-btn svg, #theme-switch svg {
+.account-btn svg,
+#theme-switch svg {
 
 	fill: var(--text-color);
 
@@ -219,8 +221,8 @@ header {
 	justify-content: center;
 	align-items: center;
 	position: absolute;
-	right: 100px;
-	bottom: -27px;
+	right: 6.25rem;
+	bottom: -1.688rem;
 	transform: translateY(5px);
 	transform: 150ms ease-in-out;
 
@@ -235,7 +237,7 @@ header {
 #theme-switch:hover {
 
 	transform: translateY(0px);
-	
+
 }
 
 #theme-switch svg:last-child {
@@ -258,16 +260,16 @@ header {
 
 .post {
 
-    width: 50%;
-    background: var(--base-variant);
-    color: var(--text-color);
-    padding: 0.938rem;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
-    margin-top: 1.25rem;
-    transition: 150ms ease-in-out;
-    z-index: 0;
-    transform: translateY(0px);
+	width: 50%;
+	background: var(--base-variant);
+	color: var(--text-color);
+	padding: 0.938rem;
+	border-radius: 10px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+	margin-top: 1.25rem;
+	transition: 150ms ease-in-out;
+	z-index: 0;
+	transform: translateY(0px);
 
 }
 
@@ -280,95 +282,95 @@ header {
 .post-img {
 
 	width: 100%;
-    margin-right: 0.625rem;
-    border: 2px solid var(--base-color);
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+	margin-right: 0.625rem;
+	border: 2px solid var(--base-color);
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
 
 }
 
 .user {
 
-    display: flex;
-    align-items: center;
+	display: flex;
+	align-items: center;
 	cursor: pointer;
 
 }
 
 .user img {
 
-    width: 2.5rem;
-    height: 2.5rem;
-    border: 2px solid var(--base-color);
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
-    border-radius: 50%;
-    margin-right: 0.625rem;
+	width: 2.5rem;
+	height: 2.5rem;
+	border: 2px solid var(--base-color);
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+	border-radius: 50%;
+	margin-right: 0.625rem;
 
 }
 
 .actions {
 
-    display: flex;
-    justify-content: space-between;
-    margin-top: 0.625rem;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 0.625rem;
 
 }
 
 .actions button {
 
-    background: none;
-    border: none;
-    cursor: pointer;
-    font-size: 16px;
-    color: var(--text-color);
-    transition: color 0.3s ease-in-out;
+	background: none;
+	border: none;
+	cursor: pointer;
+	font-size: 16px;
+	color: var(--text-color);
+	transition: color 0.3s ease-in-out;
 
 }
 
 .actions button:hover {
 
-    color: var(--accent-color);
+	color: var(--accent-color);
 
 }
 
 .cmt-dropdown {
 
-    position: relative;
-    display: inline-block;
+	position: relative;
+	display: inline-block;
 
 }
 
 .cmt-dropdown-btn {
 
-    background: none;
-    border: none;
-    cursor: pointer;
-    font-size: 16px;
-    color: var(--text-color);
-    transition: color 0.3s ease-in-out;
+	background: none;
+	border: none;
+	cursor: pointer;
+	font-size: 16px;
+	color: var(--text-color);
+	transition: color 0.3s ease-in-out;
 
 }
 
 .cmt-dropdown-content .comment-item {
 
-    padding: 0.313rem;
-    border-bottom: 1px solid var(--base-variant);
+	padding: 0.313rem;
+	border-bottom: 1px solid var(--base-variant);
 
 }
 
 .cmt-dropdown-content {
 
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 34.375rem;
-    padding: 2.188rem;
-    border-radius: .25rem;
-    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.5);
-    background-color: var(--base-variant);
-    visibility: hidden;
-    opacity: 0;
-    transition: 150ms ease-in-out;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 34.375rem;
+	padding: 2.188rem;
+	border-radius: .25rem;
+	box-shadow: 0 5px 30px rgba(0, 0, 0, 0.5);
+	background-color: var(--base-variant);
+	visibility: hidden;
+	opacity: 0;
+	transition: 150ms ease-in-out;
 
 }
 
@@ -428,10 +430,11 @@ form {
 	display: flex;
 	flex-direction: column;
 	padding-left: 1em;
-	margin:3.125rem 0px; padding:0px;
-	text-align:center;
+	margin: 3.125rem 0px;
+	padding: 0px;
+	text-align: center;
 	width: 80%;
-	
+
 
 }
 
@@ -444,7 +447,7 @@ input {
 text-area {
 
 	padding-bottom: .5em;
-	
+
 }
 
 label {
@@ -453,18 +456,22 @@ label {
 
 }
 
-.contactHeader, .contactPara, .ffHeader, .ffPara {
+.contactHeader,
+.contactPara,
+.ffHeader,
+.ffPara {
 
 	color: var(--text-color);
-	text-align:center;
+	text-align: center;
 
 }
 
 .ffLabels {
 
 	color: var(--text-color);
-	text-align:center;
-	margin: 1.563rem 0px; padding:0px;
+	text-align: center;
+	margin: 1.563rem 0px;
+	padding: 0px;
 	font-size: 25px;
 
 }
@@ -473,9 +480,9 @@ label {
 
 	display: grid;
 	margin-top: 0.625rem;
-    background-color: var(--base-variant);
+	background-color: var(--base-variant);
 	border-radius: .25rem;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
 
 }
 
@@ -497,8 +504,8 @@ label {
 .directory ul li h1 {
 
 	text-decoration: none;
-    color: var(--text-color);
-    padding: 0.625rem;
+	color: var(--text-color);
+	padding: 0.625rem;
 	cursor: pointer;
 	transition: 150ms ease-in-out;
 
@@ -517,7 +524,7 @@ label {
 	padding-left: 1.563rem;
 	margin: auto;
 	color: var(--text-color);
-	
+
 }
 
 .content h2 {
@@ -543,6 +550,41 @@ label {
 
 	border-radius: .5rem;
 	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+
+}
+
+.mobile-menu {
+	display: none;
+}
+
+@media(max-width: 1100px) {
+
+	.wrapper {
+		width: min(37.5rem, 100%);
+		border-radius: 0;
+	}
+
+	header {
+		width: 100%;
+		border-radius: 0;
+	}
+
+	.menu, .menu-account, .darkmode-menu {
+
+		display:none;
+
+	}
+
+	.mobile-menu {
+
+		display: flex;
+		width: 40%;
+		background-color: var(--base-color);
+		color: var(--text-color);
+		text-decoration: none;
+
+	}
+	
 
 }
 

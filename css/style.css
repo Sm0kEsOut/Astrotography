@@ -199,6 +199,7 @@ a:hover {
 		width: min(37.5rem, 100%);
 		border-radius: 0;
 	}
+	
 }
 
 form div.incorrect label {
@@ -230,8 +231,8 @@ form div.incorrect input {
 	justify-content: center;
 	align-items: center;
 	position: fixed;
-	top: 20px;
-	right: 20px;
+	top: 1.25rem;
+	right: 1.25rem;
 
 }
 
