@@ -1,5 +1,5 @@
 $('document').ready(function () {
-    const apiKey = 'yourapikey';
+    const apiKey = 'f9izefEqgX0zrEVYQR1JX8Rs26vRXKsC1T0EATvk';
     const apiUrl = `https://api.nasa.gov/planetary/apod?api_key=${apiKey}&count=50&thumbs=true`;
 
     async function fetchNasaPhotos() {
